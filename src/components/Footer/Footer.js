@@ -5,11 +5,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import {colors} from "../../theme/colors";
 
-const Footer = () => {
+const Footer = ({ githubLink, linkedinLink }) => {
   const footerPageList = [
     {name: "about", label: "About", link: "#about"},
     {name: "Experience", label: "Experience", link: "#experience"},
-    {name: "Education", label: "Education", link: "#Education"},
+    {name: "Education", label: "Education", link: "#education"},
     {name: "contacts", label: "Contacts", link: "#contacts"},
   ];
   return (
@@ -25,18 +25,22 @@ const Footer = () => {
             ))}
           </div>
           <div className="footer-icon-wrapper">
-            <GitHubIcon
-              variant="outlined"
-              color={"secondary"}
-              style={{width: "1.8em", height: "1.8em"}}
-              sx={{"&:hover": {color: colors.primary__lighter, cursor: "pointer"}}}
-            />
-            <LinkedInIcon
-              variant="outlined"
-              color={"secondary"}
-              style={{width: "1.8em", height: "1.8em"}}
-              sx={{"&:hover": {color: colors.primary__lighter, cursor: "pointer"}}}
-            />
+            <a href={ githubLink } target="_blank">
+              <GitHubIcon
+                variant="outlined"
+                color={"primary"}
+                style={{width: "1.8em", height: "1.8em"}}
+                sx={{"&:hover": {color: colors.secondary, cursor: "pointer"}}}
+              />
+            </a>
+            <a href={ linkedinLink } target="_blank">
+              <LinkedInIcon
+                variant="outlined"
+                color={"primary"}
+                style={{width: "1.8em", height: "1.8em"}}
+                sx={{"&:hover": {color: colors.secondary, cursor: "pointer"}}}
+              />
+            </a>
           </div>
         </Grid>
         <Grid xs={4} item />

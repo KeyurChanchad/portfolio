@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://Niravkhetani.github.io/portfolio",
+    "homepage": "https://KeyurChanchad.github.io/portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

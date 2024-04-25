@@ -66,7 +66,7 @@ const components = {
       {
         props: {variant: "filled"},
         style: {
-          background: "-webkit-linear-gradient(225deg, rgb(41, 129, 154) 0%, rgb(65, 207, 255) 100%)",
+          background: "-webkit-linear-gradient(225deg, rgb(8, 233, 179) 0%, rgb(65, 198, 165) 100%)",
           color: colors.white,
           backgroundColor: "transparent",
           border: "1px solid rgba(0, 0, 0, 0.25)",

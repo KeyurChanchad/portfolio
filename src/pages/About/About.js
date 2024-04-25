@@ -4,30 +4,31 @@ import "./styles/about.css";
 import {colors} from "../../theme/colors";
 import {TypeAnimation} from "react-type-animation";
 import {Image} from "@mui/icons-material";
+import { Opacity } from "@mui/material/styles";
 
 const About = ({aboutDescription, cvUrl}) => {
   const DownloadCV = () => {
-    const pdfUrl = cvUrl || "https://drive.google.com/file/d/18-wrnJALEvh0P75zPVLQG-bhkUI1rNNf/view?usp=sharing";
+    const pdfUrl = cvUrl || "https://drive.google.com/file/d/1JPcl-IRJOrmTeuiF-veb0KMfpkWHCmJl/view?usp=sharing";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "NiravKhetaniSoftwareDeveloper.pdf"; // specify the filename
+    link.download = "KeyurChanchadSoftwareDeveloper.pdf"; // specify the filename
     document.body.appendChild(link);
     link.target = "_blank";
     link.click();
     document.body.removeChild(link);
   };
   return (
-    <Paper variant="about-bio-info">
+    <Paper variant="about-bio-info" id='about'>
       <Grid container>
         <Grid item xs={12} md={6} lg={6} order={{xs: 2, md: 1, lg: 1}}>
           <Typography variant="greetingHeader" className="about-greeting-header">
             Hi, I am
             <br />
-            Nirav Khetani 🤙🏻
+            Keyur Chanchad 🤙🏻
           </Typography>
           <div className="roles-wrapper">
             <Typography variant="roles">I am a</Typography>
-            <div style={{color: colors.primary__lighter}}>
+            <div style={{color: '#64FFFF'}}>
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed once, initially
@@ -48,7 +49,7 @@ const About = ({aboutDescription, cvUrl}) => {
           </div>
 
           {/* <Typography variant="roles">I am a </Typography> */}
-          <Typography variant="h4" sx={{color: colors.secondary, marginBottom: "42px !important"}}>
+          <Typography variant="h4" sx={{color: colors.white, marginBottom: "42px !important"}}>
             {aboutDescription ||
               "I have strong organizational skills and demonstrate responsibility, proactivity, dynamism and resilience in my work. I have a great ability to adapt to new challenges. I like to analyze problems and evaluate different solutions. I believe that organization is very important in order to achieve personal and professional goals efficiently."}
           </Typography>
