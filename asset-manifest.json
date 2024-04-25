@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da4c1589.css",
+    "main.js": "/static/js/main.e57a1283.js",
+    "static/js/453.b315aabe.chunk.js": "/static/js/453.b315aabe.chunk.js",
+    "static/media/KeyurLogo.png": "/static/media/KeyurLogo.520cb3e232ac7be8f0fc.png",
+    "index.html": "/index.html",
+    "main.da4c1589.css.map": "/static/css/main.da4c1589.css.map",
+    "main.e57a1283.js.map": "/static/js/main.e57a1283.js.map",
+    "453.b315aabe.chunk.js.map": "/static/js/453.b315aabe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da4c1589.css",
+    "static/js/main.e57a1283.js"
+  ]
+}
