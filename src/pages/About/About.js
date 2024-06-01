@@ -2,7 +2,7 @@ import {Button, Grid, Paper, Typography} from "@mui/material";
 import React from "react";
 import "./styles/about.css";
 import {colors} from "../../theme/colors";
-import {TypeAnimation} from "react-type-animation";c
+import {TypeAnimation} from "react-type-animation";
 
 const About = ({aboutDescription, cvUrl}) => {
   const DownloadCV = () => {
