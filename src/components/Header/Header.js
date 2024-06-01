@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./styles/header.css";
 import {Grid, Link, Paper} from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -41,7 +41,7 @@ const Header = ({ githubLink, linkedinLink }) => {
         </Grid>
 
         <Grid item xs={6} md={4} lg={4} className="header-navbar-icons">
-          <a href={ linkedinLink } target="_blank">
+          <a href={ linkedinLink } target="_blank" rel="noreferror">
             <LinkedInIcon
               sx={{
                 color: "white",
@@ -53,7 +53,7 @@ const Header = ({ githubLink, linkedinLink }) => {
               }}
             />
           </a>
-          <a href={ githubLink } target="_blank">
+          <a href={ githubLink } target="_blank" rel="noreferror">
             <GitHubIcon
               sx={{
                 color: "white",

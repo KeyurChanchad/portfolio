@@ -25,7 +25,7 @@ const Footer = ({ githubLink, linkedinLink }) => {
             ))}
           </div>
           <div className="footer-icon-wrapper">
-            <a href={ githubLink } target="_blank">
+            <a href={ githubLink } target="_blank" rel="noreferrer">
               <GitHubIcon
                 variant="outlined"
                 color={"primary"}
@@ -33,7 +33,7 @@ const Footer = ({ githubLink, linkedinLink }) => {
                 sx={{"&:hover": {color: colors.secondary, cursor: "pointer"}}}
               />
             </a>
-            <a href={ linkedinLink } target="_blank">
+            <a href={ linkedinLink } target="_blank" rel="noreferrer">
               <LinkedInIcon
                 variant="outlined"
                 color={"primary"}

@@ -6,16 +6,14 @@ import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
 import Contact from "../Contact/Contact";
 import Footer from "../../components/Footer/Footer";
-import axios from "axios";
-import {GSHEET_API_URL} from "../../utils/const";
 
 const Home = () => {
-  const [githubLink, setGithubLink] = useState("https://github.com/KeyurChanchad");
-  const [linkedinLink, setLinkedInLink] = useState("https://www.linkedin.com/in/keyur-chanchad-b5490b20b/");
-  const [about, setAbout] = useState("");
-  const [experienceTimeLineHeader, setExperienceTimeLineHeader] = useState("");
-  const [BccEmail, setBccEmail] = useState("");
-  const [ExperienceInfo, setExperienceInfo] = useState([
+  const githubLink = "https://github.com/KeyurChanchad";
+  const linkedinLink = "https://www.linkedin.com/in/keyur-chanchad-b5490b20b/";
+  const about = "";
+  const experienceTimeLineHeader ="";
+  const BccEmail ="";
+  const ExperienceInfo = [
     {
       srNo: 1,
       JobRole: 'MERN stack developer',
@@ -26,10 +24,10 @@ const Home = () => {
       description:`
       As a key member of the development team at Rao Information Technology, I spearheaded the creation of a chat application reminiscent of WhatsApp, cutting-edge features including seamless audio and video calls, effortless media sharing, and robust end-to-end encryption for unparalleled privacy. Leveraging my expertise in React Native and Node.js, I led the design and implementation of the app's frontend and backend architecture, ensuring cross-platform compatibility and scalability. My contributions enabled users to experience a seamless communication experience, setting new standards for secure and intuitive mobile messaging platforms. This project showcases my ability to deliver innovative solutions in a fast-paced development environment, positioning Rao Information Technology at the forefront of technological advancement.`
     }
-  ]);
-  const [cvUrl, setCVUrl] = useState("");
-  const [educationTitleHeader, setEducationTitleHeader] = useState("");
-  const [educationInfo, setEducationInfo] = useState([
+  ];
+  const cvUrl ="";
+  const educationTitleHeader ="";
+  const educationInfo =[
     {
       srNo: 1,
       degree: 'Master of Science in Information Technology (Msc.IT)',
@@ -51,7 +49,7 @@ const Home = () => {
       startDate: 'May 2018',
       endDate: 'March 2019'
     },
-  ]);
+  ];
 
   useEffect(() => {
     // const fetchResponse = async () => {

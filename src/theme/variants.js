@@ -1,4 +1,3 @@
-import {green} from "@mui/material/colors";
 import {colors} from "./colors";
 
 const greyVariant = {
