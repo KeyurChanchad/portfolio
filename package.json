@@ -1,6 +1,7 @@
 {
   "name": "protfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "homepage": "https://keyurchanchad.github.io/Portfolio/",
   "private": false,
   "dependencies": {
     "@emotion/styled": "^11.11.0",
@@ -23,7 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://KeyurChanchad.github.io/portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
