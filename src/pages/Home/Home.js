@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import Header from "../../components/Header/Header";
 import About from "../About/About";
 import FadeSection from "../../shared/FadeSection/FadeSection";

@@ -41,7 +41,7 @@ const Header = ({ githubLink, linkedinLink }) => {
         </Grid>
 
         <Grid item xs={6} md={4} lg={4} className="header-navbar-icons">
-          <a href={ linkedinLink } target="_blank" rel="noreferror">
+          <a href={ linkedinLink } target="_blank" rel="noreferrer">
             <LinkedInIcon
               sx={{
                 color: "white",
@@ -53,7 +53,7 @@ const Header = ({ githubLink, linkedinLink }) => {
               }}
             />
           </a>
-          <a href={ githubLink } target="_blank" rel="noreferror">
+          <a href={ githubLink } target="_blank" rel="noreferrer">
             <GitHubIcon
               sx={{
                 color: "white",
