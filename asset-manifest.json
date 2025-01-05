@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.da4c1589.css",
-    "main.js": "/Portfolio/static/js/main.24e26fe2.js",
+    "main.css": "/Portfolio/static/css/main.c11b5b65.css",
+    "main.js": "/Portfolio/static/js/main.73d464fc.js",
     "static/js/453.b315aabe.chunk.js": "/Portfolio/static/js/453.b315aabe.chunk.js",
-    "static/media/KeyurLogo.png": "/Portfolio/static/media/KeyurLogo.5807e7a1178f0f5d6e17.png",
     "index.html": "/Portfolio/index.html",
-    "main.da4c1589.css.map": "/Portfolio/static/css/main.da4c1589.css.map",
-    "main.24e26fe2.js.map": "/Portfolio/static/js/main.24e26fe2.js.map",
+    "main.c11b5b65.css.map": "/Portfolio/static/css/main.c11b5b65.css.map",
+    "main.73d464fc.js.map": "/Portfolio/static/js/main.73d464fc.js.map",
     "453.b315aabe.chunk.js.map": "/Portfolio/static/js/453.b315aabe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da4c1589.css",
-    "static/js/main.24e26fe2.js"
+    "static/css/main.c11b5b65.css",
+    "static/js/main.73d464fc.js"
   ]
 }
