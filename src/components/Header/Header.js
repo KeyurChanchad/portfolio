@@ -20,13 +20,7 @@ const Header = ({ githubLink, linkedinLink }) => {
         <Grid item xs={6} md={4} lg={4} sx={{display: "flex", alignItems: "center"}}>
           <img
             src={KeyurLogo}
-            alt="logo"
-            style={{
-              height: "35px",
-              width: "100%",
-              objectFit: "contain",
-              mixBlendMode: "plus-lighter",
-            }}
+            alt="logo" 
             class="logo-img"
           />
         </Grid>

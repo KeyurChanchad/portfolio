@@ -1,11 +1,13 @@
 .header-container {
-  height: 76px;
+  height: 100px;
+  max-height: none !important;
   display: flex;
   align-items: center;
   padding: 15px !important;
   position: sticky;
   top: 0px;
   z-index: 99999 !important;
+  padding: 20px 65px !important; 
 }
 .nav-menu-wrapper {
   @media (min-width: 0px) and (max-width: 980px) {
@@ -22,5 +24,6 @@
   width: 80%;
 }
 .logo-img {
-  margin-left: -56px !important;
+  margin-left: -4px !important;
+  max-width: 300px;
 }
