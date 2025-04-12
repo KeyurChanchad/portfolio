@@ -15,8 +15,7 @@ const Experience = ({experienceTimeLineHeader, ExperienceInfo}) => {
             <div className="experience-title-wrapper">
               <Typography variant="experienceHeader">Experience</Typography>
               <Typography className="experience-description" variant="experienceCardDescription">
-                {experienceTimeLineHeader ||
-                  "My professional journey has been an exciting saga of challenges and valuable learnings. Below are details of my professional experience, where each opportunity has shaped my perspective and honed my skills."}
+                {experienceTimeLineHeader}
               </Typography>
             </div>
             {ExperienceInfo.map((ExperienceCardItem) => (

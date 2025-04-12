@@ -6,7 +6,7 @@ import {TypeAnimation} from "react-type-animation";
 
 const About = ({aboutDescription, cvUrl}) => {
   const DownloadCV = () => {
-    const pdfUrl = cvUrl || "https://drive.google.com/file/d/1JPcl-IRJOrmTeuiF-veb0KMfpkWHCmJl/view?usp=sharing";
+    const pdfUrl = cvUrl || "https://drive.google.com/file/d/1C3VBWj_ofrCZZA72v_BV-mP2q3uQACba/view?usp=sharing";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "KeyurChanchadSoftwareDeveloper.pdf"; // specify the filename
@@ -20,7 +20,7 @@ const About = ({aboutDescription, cvUrl}) => {
       <Grid container>
         <Grid item xs={12} md={6} lg={6} order={{xs: 2, md: 1, lg: 1}}>
           <Typography variant="greetingHeader" className="about-greeting-header">
-            Hi, I am
+            Hey, I am
             <br />
             Keyur Chanchad 🤙🏻
           </Typography>
@@ -30,13 +30,15 @@ const About = ({aboutDescription, cvUrl}) => {
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed once, initially
+                  "Full Stack Developer",
+                  1000,
                   "Software Developer",
                   1000,
                   "Backend Developer",
                   1000,
-                  "Programmer",
+                  "Problem Solver",
                   1000,
-                  "Student",
+                  "Programmer",
                   1000,
                 ]}
                 speed={50}
@@ -49,7 +51,7 @@ const About = ({aboutDescription, cvUrl}) => {
           {/* <Typography variant="roles">I am a </Typography> */}
           <Typography variant="h4" sx={{color: colors.white, marginBottom: "42px !important"}}>
             {aboutDescription ||
-              "I have strong organizational skills and demonstrate responsibility, proactivity, dynamism and resilience in my work. I have a great ability to adapt to new challenges. I like to analyze problems and evaluate different solutions. I believe that organization is very important in order to achieve personal and professional goals efficiently."}
+              "With 2.5+ years of experience in MERN/PERN stacks, ReactJs, React Native, NodeJs, ExpressJs, MongoDB and PostgreSQL. I have a great ability to adapt to new challenges. I like to analyze problems and evaluate different solutions. I believe that organization is very important in order to achieve personal and professional goals efficiently. I build scalable web and mobile apps that bridge the gap between software and hardware. I thrive on turning complex workflows into intuitive, high-performance solutions."}
           </Typography>
           <Button variant="filled" onClick={DownloadCV}>
             Check CV
