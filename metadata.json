@@ -1,0 +1,6 @@
+{
+  "name": "Keyur Chanchad Portfolio",
+  "description": "A professional, interactive portfolio website for Keyur Chanchad showcasing skills, experience, projects, and contact info, built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
